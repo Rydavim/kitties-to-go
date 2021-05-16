@@ -1,0 +1,30 @@
+* { box-sizing: border-box; }
+
+a:hover { cursor: pointer; }
+
+/* NB: Color descriptions are reminder notes, not official names. */
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  color: #494949; /* very dark grey */
+}
+
+/* COLORS */
+header {
+  background-color: #2c9ab7; /* medium ocean blue */
+  color: #ffffff; /* white */
+}
+nav {
+  background-color: #ebebeb; /* very light grey */
+  color: #393939; /* dark grey */
+}
+footer { background-color: #393939; }
+#intro { color: #249bb8; /* ocean blue */ }
+#quote { color: 52b9d4; /* light blue */ }
+a { color: #3aa0bb; /* med-light blue */ }
+
+/* LAYOUT & STYLES */
+/* margin collapsing fixes */
+h1, nav ul { margin-top: 0; }
+h2 { margin-bottom: 0; }

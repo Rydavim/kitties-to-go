@@ -110,3 +110,33 @@ footer {
 
 footer > * { padding: 1rem 0; }
 footer p:last-child { font-weight: lighter; }
+
+/* KITTY PROFILES */
+.kitty {
+  margin: 1.5rem 0;
+  padding: 1rem;
+  border: 8px solid #2c9ab7;
+  border-radius: 8px;
+}
+
+.kitty img {
+  float: left;
+  width: 35%; /* This could use some responsive design work... */
+  border: 4px solid #393939;
+  border-radius: 4px;
+}
+
+.kitty section {
+  width: 60%;
+  float: left;
+  padding: 0 2.5%;
+}
+
+.kitty ul {
+  list-style: none;
+  padding: 0;
+}
+
+.kitty h3 {
+  margin-top: 0;
+}

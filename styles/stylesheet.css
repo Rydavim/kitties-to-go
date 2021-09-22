@@ -20,8 +20,11 @@ body {
 }
 
 /* COLORS */
-/* changed designer color to increase constrast - a11y */
-a { color: #249bb8; /* ocean blue */ }
+/* changed designer color and font weight to increase constrast - a11y */
+a {
+  color: #249bb8; /* ocean blue */
+  font-weight: bold;
+}
 
 header {
   background-color: #2c9ab7; /* medium ocean blue */
@@ -36,8 +39,11 @@ nav a {
 
 #intro { color: #249bb8; /* ocean blue */ }
 
-/* changed designer color to increase contrast - a11y */
-#quote { color: #249bb8; /* ocean blue */ }
+/* changed designer color and font weight to increase contrast - a11y */
+#quote {
+  color: #249bb8; /* ocean blue */
+  font-weight: bold;
+}
 
 footer,
 footer a {

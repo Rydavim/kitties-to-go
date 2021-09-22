@@ -35,7 +35,8 @@ nav a {
 
 #intro { color: #249bb8; /* ocean blue */ }
 
-#quote { color: #52b9d4; /* light blue */ }
+/* changed designer color to increase contrast - a11y */
+#quote { color: #2c9ab7; /* medium ocean blue */ }
 
 footer,
 footer a {
